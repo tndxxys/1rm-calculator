@@ -52,7 +52,19 @@ jobs:
         with:
           tagName: ${{ github.ref_name }}
           releaseName: '1RM Calculator ${{ github.ref_name }}'
-          releaseBody: 'See assets below.'
-          releaseDraft: true
+          releaseBody: '## 1RM 计算器
+
+### 功能
+- 支持 6 种 1RM 估算公式
+- 智能推荐最佳公式组合
+- 目标 RM 计算
+- RPE/RIR 转换
+- 置信度评估
+- 历史记录存储
+
+### 下载
+- **macOS (Apple Silicon)**: 下载 `.dmg` 文件
+- **Windows**: 下载 `.exe` 或 `.msi` 文件'
+          releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}
