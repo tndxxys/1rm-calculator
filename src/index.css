@@ -1,0 +1,50 @@
+:root {
+  font-family:
+    "SF Pro Display", "Avenir Next", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --background:
+    radial-gradient(circle at top left, rgba(214, 98, 56, 0.18), transparent 24%),
+    radial-gradient(circle at 80% 0%, rgba(241, 166, 90, 0.2), transparent 28%),
+    linear-gradient(180deg, #f6f2e8, #f2efe6 45%, #efe9dc);
+  --panel: rgba(250, 248, 243, 0.78);
+  --field: rgba(255, 255, 255, 0.88);
+  --border: rgba(113, 101, 74, 0.18);
+  --text: #1f241f;
+  --muted: #6d675b;
+  --accent: #d66238;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: #efe9dc;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}

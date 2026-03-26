@@ -1,0 +1,1 @@
+{"root":["./src/app.test.tsx","./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/domain/estimate.test.ts","./src/domain/estimate.ts","./src/domain/formulas.ts","./src/domain/rpe.ts","./src/storage/history.ts","./src/test/setup.ts"],"version":"5.9.3"}
